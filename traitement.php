@@ -1,6 +1,6 @@
 <?php
 	session_start();
-
+// Si les donnés viens de premiere page ,on le traite et fais le resultat dans une tableau
 	if ( $_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['a']) && isset($_POST['b']) ){
 		$a = $_POST['a'];
 		$b = $_POST['b'];
@@ -12,7 +12,7 @@
                 	$tab[$i][2] = $tab[$i][0]*$tab[$i][1];
 		}
 	}
-
+//si le donne vient d'une suppression
 	if ( $_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['varA']) && isset($_GET['varB']) && isset($_GET['varI']) ){
 		$a = $_GET['varA'];
 		$b = $_GET['varB'];
@@ -31,7 +31,7 @@
 		}
 		$tab = $tabtmp;
 	}
-
+//si le donne vient d'une modification
         if ( $_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['aM']) && isset($_POST['iM']) && isset($_POST['a']) && isset($_POST['b']) && isset($_POST['i']) ){
                 $aM = $_POST['aM'];
                 $iM = $_POST['iM'];
@@ -47,7 +47,7 @@
                         }
                 }
         }
-
+// on envoye le donne et redirige la page
 	$_SESSION['tableau'] = $tab;
 	header("Location: affichage.php");
 ?>
