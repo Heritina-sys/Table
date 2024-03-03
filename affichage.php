@@ -1,7 +1,7 @@
 <?php
 	session_start();
-	$tab = $_SESSION['tableau'];
-	$_SESSION['tableau'] = $tab;
+	$tab = $_SESSION['tableau']; 	//on recupère une tableau ou contient les resultats 
+	$_SESSION['tableau'] = $tab;	//on met ajour le contenus du source du tableau car des mis a jour ont lieu
 	$taille = count($tab);
         echo "<HEAD>";
                 echo '<meta charset="UTF-8">';
