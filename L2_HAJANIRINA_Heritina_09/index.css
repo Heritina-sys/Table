@@ -40,7 +40,6 @@ p{
 	height : 800px;
 	display : grid;
 	grid-template-columns : 1fr 1fr;
-	grid-template-rows: 1fr;
 }
 .listlivre{
 	display : grid;
@@ -52,7 +51,7 @@ p{
 	grid-template-columns : 1fr 1fr;
 	grid-template-rows: 1fr;
     overflow: auto; 
-    max-height: 300px;
+    max-height: 50%;
 }
 .pic{
 	width: 300px;
@@ -60,9 +59,7 @@ p{
 }
 .button{
 	width : 80%;
-	margin-top : 2%;
-	margin-left : 0%;
-	margin-right : 0%;
+	margin : 5px;
 	border : none;
 	background-color : #101010;
 	color : white;

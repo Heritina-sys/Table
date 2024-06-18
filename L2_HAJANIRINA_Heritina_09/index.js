@@ -111,12 +111,15 @@ document.addEventListener("DOMContentLoaded",function(){
             }
             let jl = JSON.stringify(first);
             localStorage.setItem("livres",jl);
+            window.location.href = window.location.href;
         }
         else{
             livre = JSON.parse(livre);
             livre.livres.push(tab);
             let co = JSON.stringify(livre);
             localStorage.setItem("livres",co);
+            window.location.href = window.location.href;
+
         }
     }
     function affichedispo(){
