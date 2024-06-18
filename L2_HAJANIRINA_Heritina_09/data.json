@@ -1,0 +1,51 @@
+{
+	"livres" : [
+		{
+			"titre" : "1964",
+			"auteurs" : "George Orwell",
+			"isbn" : "123456789",
+			"image" : "bd1.jpg",
+			"editeur" : "Gellimard",
+			"datePublication" : "1949",
+			"genre": "Sciences-fitions",
+			"resume" : "Un homme contre le regime ......",
+			"langue" : "fr",
+			"nombrePages" : 368,
+			"disponibilite" : false,
+			"etat" : "Endomagé",
+			"emplacement" : "Reserves"
+		
+		},
+		{
+			"titre" : "1964",
+			"auteurs" : "George Orwell",
+			"isbn" : "123456789",
+			"image" : "bd2.jpg",
+			"editeur" : "Gellimard",
+			"datePublication" : "1949",
+			"genre": "Sciences-fitions",
+			"resume" : "Un homme contre le regime ......",
+			"langue" : "fr",
+			"nombrePages" : 368,
+			"disponibilite" : false,
+			"etat" : "Endomagé",
+			"emplacement" : "Reserves"
+		
+		},
+		{
+			"titre" : "1964",
+			"auteurs" : "George Orwell",
+			"isbn" : "123456789",
+			"image" : "bd3.jpg",
+			"editeur" : "Gellimard",
+			"datePublication" : "1949",
+			"genre": "Sciences-fitions",
+			"resume" : "Un homme contre le regime ......",
+			"langue" : "fr",
+			"nombrePages" : 368,
+			"disponibilite" : false,
+			"etat" : "Endomagé",
+			"emplacement" : "Reserves"
+		}
+	]
+}
